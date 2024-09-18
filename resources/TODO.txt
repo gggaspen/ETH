@@ -1,0 +1,47 @@
+    TODO:
+1.
+    generar direccion
+2. 
+    consultar balance
+3. 
+    obtener transacciones por bloque
+4.
+    consultar bloque
+5.
+    Enviar transacciones entre cuentas.
+    Usar una testnet (DEMO)
+6.
+    Interactuar con un contrato inteligente
+    Encuentra un contrato ya desplegado (puedes usar contratos públicos).
+    Usa client.CallContract para invocar una función de lectura (por ejemplo, obtener un nombre o un saldo)
+7.
+    Desplegar tu propio contrato inteligente.
+8.
+    Escuchar eventos de contratos inteligentes
+    Objetivo: Monitorear eventos que emite un contrato inteligente.
+    Ejercicio: Escucha los eventos emitidos por un contrato inteligente que ya esté desplegado en la blockchain.
+    Pasos:
+    Usa client.FilterLogs para escuchar eventos emitidos por un contrato.
+    Captura y muestra el contenido de los eventos (por ejemplo, transferencias en un contrato ERC-20).
+    Opcional: Integra esto en un programa que avise cuando un evento ocurra.
+    Aprendizaje: Cómo suscribirse a eventos emitidos por contratos inteligentes en la blockchain.
+9.
+    Crear una dApp simple
+    Objetivo: Construir una aplicación descentralizada simple (dApp) que interactúe con la blockchain desde el frontend.
+    Ejercicio: Construye una aplicación web en la que puedas consultar el balance de una cuenta o desplegar un contrato usando Go para el backend y cualquier framework de frontend para la interfaz de usuario.
+    Pasos:
+    Usa Go como backend para hacer las llamadas a la blockchain.
+    Conéctate desde el frontend a tu servidor Go para consultar datos de la blockchain.
+    Muestra los resultados en la web (por ejemplo, el saldo de una cuenta o la información de un contrato).
+    Aprendizaje: Cómo integrar Go con el frontend para crear una dApp.
+10.
+    Desarrollar una billetera sencilla
+    Objetivo: Crear una billetera que permita a los usuarios generar cuentas, ver balances y enviar ETH.
+    Ejercicio: Usa Go para manejar todas las interacciones con la blockchain y permite que los usuarios puedan gestionar su propia cuenta en la dApp.
+    Pasos:
+    Implementa las funciones para crear cuentas, consultar balances y enviar transacciones.
+    Integra la dApp con una testnet.
+    Crea una interfaz sencilla donde los usuarios puedan interactuar con su billetera.
+    Aprendizaje: Cómo crear una aplicación más completa que interactúe con varias funcionalidades del ecosistema Ethereum.
+
+*/
