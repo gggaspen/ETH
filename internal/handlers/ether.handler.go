@@ -3,7 +3,7 @@ package handlers
 import (
 	"context"
 	"encoding/json"
-	"ether/internal/config"
+	"ether/config"
 	"fmt"
 	"log"
 	"math/big"
